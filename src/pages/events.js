@@ -1,0 +1,24 @@
+import React from "react"
+import { Link } from "gatsby"
+
+import Layout from "../layouts/layout"
+import SEO from "../components/seo"
+import { BeastcoastLogo } from "./../components/header"
+const EventsPage = () => (
+  <Layout>
+    <SEO title="Events" />
+    <h1>Events</h1>
+    <p>Welcome to your new Gatsby site.</p>
+    <p>Now go build something great.</p>
+
+    <BeastcoastLogo />
+    <Link to="/">Home</Link>
+    <Link to="/players">Players</Link>
+    <Link to="/news">News</Link>
+    <Link to="/sponsors">Sponsors</Link>
+    <Link to="/events">Events</Link>
+    <Link to="/shop">Shop</Link>
+  </Layout>
+)
+
+export default EventsPage
